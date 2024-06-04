@@ -1,6 +1,6 @@
-let character = 'mario';
-let age = 30;
-let isBlackBelt = false;
+let character: string = 'mario';
+let age: number = 30;
+let isBlackBelt: boolean = false;
 
 // character = 20;
 character = 'luigi';
@@ -11,9 +11,9 @@ age = 40;
 // isBlackBelt = 'yes';
 isBlackBelt = true;
 
-const circ = (diameter: number) => {
+const circumference = (diameter: number) => {
   return diameter * Math.PI;
 };
 
 // console.log(area('hello'));
-console.log(circ(7.5));
+console.log(circumference(7.5));
